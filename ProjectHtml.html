@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      cursor: pointer;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+    }
+
+    .card {
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      width: 200px;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #fff;
+      flex: 0 0 auto;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      padding: 10px;
+      text-align: center;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-links ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer-logo img {
+      width: 100px;
+    }
+
+    .footer-details {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="netflix logo" alt="Netflix Logo" /></div>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Movies</li>
+        <li>TV Shows</li>
+        <li>Login</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="featured">
+      <h2 class="section-title">Featured Content</h2>
+      <div class="carousel">
+        <div class="card"><img src="movie1" alt="Movie 1" /></div>
+        <div class="card"><img src="movie2" alt="Movie 2" /></div>
+        <div class="card"><img src="movie3" alt="Movie 3" /></div>
+        <div class="card"><img src="tv show1" alt="TV Show 1" /></div>
+        <div class="card"><img src="Tv show2" alt="TV Show 2" /></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-logo">
+        <img src="netflix logo" alt="Netflix Logo" />
+      </div>
+    </div>
+    <div class="footer-details">
+      &copy; 2023 Netflix. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
